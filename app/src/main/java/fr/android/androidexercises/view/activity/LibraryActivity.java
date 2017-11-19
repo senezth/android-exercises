@@ -8,6 +8,8 @@ import android.view.MenuItem;
 import fr.android.androidexercises.R;
 import fr.android.androidexercises.model.Book;
 import fr.android.androidexercises.util.LibraryUtils;
+import fr.android.androidexercises.view.fragment.BookDetailFragment;
+import fr.android.androidexercises.view.fragment.BookListFragment;
 import timber.log.Timber;
 
 public class LibraryActivity extends AppCompatActivity implements BookListFragment.OnBookClickedListener {
